@@ -295,7 +295,6 @@ define(function(require){
          * @private
          */
         function buildLayers(){
-            console.log(dataByDate)
             dataByDateFormatted = dataByDate
                 .map(d => ({ ...d, ...d.values }))
                 .map(d => {
