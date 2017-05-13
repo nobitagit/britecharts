@@ -46,7 +46,8 @@ var webpack = require('webpack'),
         exclude: /(node_modules)/,
         query: {
             presets : ['es2015', 'stage-0']
-        }
+        },
+        plugins: ['transform-object-rest-spread'],
     },
 
     plugins = [

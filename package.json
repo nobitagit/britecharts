@@ -59,6 +59,10 @@
     "base-64": "^0.1.0",
     "bowser": "^1.5.0",
     "d3": "^4.4.0",
+    "lodash.assign": "^4.2.0",
+    "lodash.flow": "^3.5.0",
+    "lodash.foreach": "^4.5.0",
+    "lodash.sortby": "^4.7.0",
     "underscore": "~1.8.3"
   },
   "devDependencies": {
@@ -67,6 +71,7 @@
     "babel-istanbul": "^0.11.0",
     "babel-istanbul-loader": "^0.1.0",
     "babel-loader": "^6.2.8",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-0": "^6.5.0",
     "grunt": "^1.0.1",
